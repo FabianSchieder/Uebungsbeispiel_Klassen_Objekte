@@ -24,12 +24,12 @@ public:
 
 int main()
 {
-   // Pen pen("yellow", 42);
-   // pen.draw("triangle");
-   // pen.draw("square");
-   //
-   // Pen pen2("green", 27);
-   // pen2.draw("line");
+    Pen pen("yellow", 42);
+    pen.draw("triangle");
+    pen.draw("square");
+   
+    Pen pen2("green", 27);
+    pen2.draw("line");
    
     Car car;
     car.accelerate(2.7f);
@@ -41,8 +41,6 @@ int main()
     cout << "isMoving: " << car.isMoving() << endl;
     cout << "Position: " << car.getPosition() << endl;
 
-
     
-
     return 0;
 }
